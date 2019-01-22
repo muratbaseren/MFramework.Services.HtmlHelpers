@@ -25,4 +25,4 @@ You can add CSS and JS files to project..
  - **mframework-jquery-unobtrusive-ajax-modified.js** - this is modified version jquery.unobstrusive-ajax.js that uses JQuery.Show method for loading element effect. The modified version is changed this effect type to fade in-out.
 
 ## Also
-This package provides some Html Helpers, Ajax Html Helpers and Html Helper Methods.
+This package provides some **Html Helpers**, **Ajax Html Helpers** and **Html Helper Methods**.
