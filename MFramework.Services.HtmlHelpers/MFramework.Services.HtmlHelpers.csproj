@@ -90,20 +90,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\mframework-circle-loader.css" />
-    <Content Include="Content\circle-loader.min.css">
+    <Content Include="Content\mframework-circle-loader.min.css">
       <DependentUpon>mframework-circle-loader.css</DependentUpon>
     </Content>
     <Content Include="Content\mframework-common.css" />
-    <Content Include="Content\mframework.min.css">
+    <Content Include="Content\mframework-common.min.css">
       <DependentUpon>mframework-common.css</DependentUpon>
     </Content>
     <Content Include="Content\mframework-thin-scrollbar.css" />
-    <Content Include="Content\thin-scrollbar.min.css">
+    <Content Include="Content\mframework-thin-scrollbar.min.css">
       <DependentUpon>mframework-thin-scrollbar.css</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
     <Content Include="Scripts\mframework-jquery-unobtrusive-ajax.js" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax-modified.min.js">
+    <Content Include="Scripts\mframework-jquery-unobtrusive-ajax.min.js">
       <DependentUpon>mframework-jquery-unobtrusive-ajax.js</DependentUpon>
     </Content>
     <Content Include="Scripts\mframework-jquery.js" />

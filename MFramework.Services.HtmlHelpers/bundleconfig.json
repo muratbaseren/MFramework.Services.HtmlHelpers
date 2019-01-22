@@ -28,5 +28,29 @@
     "inputFiles": [
       "Scripts/mframework-jquery.js"
     ]
+  },
+  {
+    "outputFileName": "Scripts/mframework-jquery-unobtrusive-ajax.min.js",
+    "inputFiles": [
+      "Scripts/mframework-jquery-unobtrusive-ajax.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/mframework-thin-scrollbar.min.css",
+    "inputFiles": [
+      "Content/mframework-thin-scrollbar.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/mframework-common.min.css",
+    "inputFiles": [
+      "Content/mframework-common.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/mframework-circle-loader.min.css",
+    "inputFiles": [
+      "Content/mframework-circle-loader.css"
+    ]
   }
 ]
