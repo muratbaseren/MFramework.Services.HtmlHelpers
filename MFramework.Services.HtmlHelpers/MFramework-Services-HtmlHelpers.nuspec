@@ -15,7 +15,6 @@
     <copyright>Copyright Kadir Murat Başeren</copyright>
   </metadata>
   <files>
-    <file src="Services\**\*.*" target="content\Services" />
     <file src="App_Code\**\*.*" target="content\App_Code" />
     <file src="App_Helpers\**\*.*" target="content\App_Helpers" />
     <file src="Content\**\*.*" target="content\Content" />
