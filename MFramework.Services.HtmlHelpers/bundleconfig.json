@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "Content/circle-loader.min.css",
+    "inputFiles": [
+      "Content/circle-loader.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/mframework.min.css",
+    "inputFiles": [
+      "Content/mframework.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/thin-scrollbar.min.css",
+    "inputFiles": [
+      "Content/thin-scrollbar.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/jquery.unobtrusive-ajax-modified.min.js",
+    "inputFiles": [
+      "Scripts/jquery.unobtrusive-ajax-modified.js"
+    ]
+  }
+]

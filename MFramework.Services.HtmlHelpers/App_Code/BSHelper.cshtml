@@ -1,0 +1,22 @@
+﻿@helper Loading(string id, string message = "Loading..", string css = "alert alert-info", string icon = "fa fa-spinner")
+{
+    <div id="@id" class="@css" style="display:none;">
+        <i class="@icon fa-spin"></i> @message
+    </div>
+}
+
+@helper SpinnerLoaderIndicator(string id)
+{
+    <div id="@id" class="circle-loader-indicator-container" style="display:none;">
+        <div class="circle-loader-indicator">
+            <div class="circle-loader">
+                <div class="circle-loader">
+                    <div class="circle-loader">
+                        <div class="circle-loader">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
