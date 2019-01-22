@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MFramework.Services.HtmlHelpers</id>
+    <version>$version$</version>
+    <authors>Kadir Murat Başeren</authors>
+    <title>MFramework.Services.HtmlHelpers</title>
+    <owners>Kadir Murat Başeren</owners>
+    <projectUrl>https://github.com/muratbaseren/MFramework.Services.HtmlHelpers</projectUrl>
+    <iconUrl>https://github.com/muratbaseren/MFramework.Services.HtmlHelpers/blob/master/assets/icon.png?raw=true</iconUrl>
+    <description>HTML Helpers service for .NET MVC Apps.</description>
+    <summary>HTML Helpers service for .NET MVC Apps.</summary>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>html,helper,htmlhelper,taghelper,helper methods,razor,mvc</tags>
+    <copyright>Copyright Kadir Murat Başeren</copyright>
+  </metadata>
+  <files>
+    <file src="Services\**\*.*" target="content\Services" />
+    <file src="App_Code\**\*.*" target="content\App_Code" />
+    <file src="App_Helpers\**\*.*" target="content\App_Helpers" />
+    <file src="Content\**\*.*" target="content\Content" />
+    <file src="Scripts\**\*.*" target="content\Scripts" />
+  </files>
+</package>
+

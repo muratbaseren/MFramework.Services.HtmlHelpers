@@ -121,6 +121,7 @@
     <Content Include="App_Code\BSHelper.cshtml" />
     <Content Include="App_Code\JQHelper.cshtml" />
     <None Include="bundleconfig.json" />
+    <Content Include="MFramework-Services-HtmlHelpers.nuspec" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
