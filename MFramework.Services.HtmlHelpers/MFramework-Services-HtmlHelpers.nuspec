@@ -16,7 +16,7 @@
   </metadata>
   <files>
     <file src="App_Code\**\*.*" target="content\App_Code" />
-    <file src="App_Helpers\**\*.*" target="content\App_Helpers" />
+    <file src="Services\**\*.*" target="content\Services" />
     <file src="Content\**\*.*" target="content\Content" />
     <file src="Scripts\**\*.*" target="content\Scripts" />
   </files>
