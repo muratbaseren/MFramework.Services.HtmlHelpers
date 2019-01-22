@@ -13,6 +13,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>html,helper,htmlhelper,taghelper,helper methods,razor,mvc</tags>
     <copyright>Copyright Kadir Murat Başeren</copyright>
+    <dependencies>
+      <group>
+        <dependency id="jquery" version="1.10.2" />
+        <dependency id="Microsoft.jQuery.Unobtrusive.Ajax" version="3.2.6" />
+      </group>
+    </dependencies>
   </metadata>
   <files>
     <file src="App_Code\**\*.*" target="content\App_Code" />

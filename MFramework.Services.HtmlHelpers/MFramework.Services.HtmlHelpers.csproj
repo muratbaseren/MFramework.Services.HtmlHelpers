@@ -89,6 +89,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\mframework-circle-loader.css" />
     <Content Include="Content\mframework-circle-loader.min.css">
       <DependentUpon>mframework-circle-loader.css</DependentUpon>
@@ -101,7 +103,16 @@
     <Content Include="Content\mframework-thin-scrollbar.min.css">
       <DependentUpon>mframework-thin-scrollbar.css</DependentUpon>
     </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\mframework-jquery-unobtrusive-ajax.js" />
     <Content Include="Scripts\mframework-jquery-unobtrusive-ajax.min.js">
       <DependentUpon>mframework-jquery-unobtrusive-ajax.js</DependentUpon>
@@ -110,9 +121,11 @@
     <Content Include="Scripts\mframework-jquery.min.js">
       <DependentUpon>mframework-jquery.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Services\HtmlHelpers\AjaxHelperExtensions.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
@@ -126,7 +139,14 @@
     <Content Include="App_Code\MFJQueryScript.cshtml" />
     <None Include="bundleconfig.json" />
     <Content Include="MFramework-Services-HtmlHelpers.nuspec" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -137,7 +157,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="App_Helpers\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
