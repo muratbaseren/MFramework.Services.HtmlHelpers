@@ -15,13 +15,14 @@ You can add CSS and JS files to project..
 
 ### What is coming with Content Folder
 
- - **mframework.css** - base css library for mframework
- - **circle-loader.css** - circle page loading indicator (full page)
- - **thin.scrollbar.css** - change the visual appearance of the scroll bar. Provides a thinner appearance.
+ - **mframework-common.css** - base css library for mframework
+ - **mframework-circle-loader.css** - circle page loading indicator (full page)
+ - **mframework-thin-scrollbar.css** - change the visual appearance of the scroll bar. Provides a thinner appearance.
 
 ### What is coming with Scripts Folder
 
- - **jquery.unobtrusive-ajax-modified.js** - this is modified version jquery.unobstrusive-ajax.js that uses JQuery.Show method for loading element effect. The modified version is changed this effect type to fade in-out.
+ - **mframework-jquery.js** - this is custom jquery function library.
+ - **mframework-jquery-unobtrusive-ajax-modified.js** - this is modified version jquery.unobstrusive-ajax.js that uses JQuery.Show method for loading element effect. The modified version is changed this effect type to fade in-out.
 
 ## Also
 This package provides some Html Helpers, Ajax Html Helpers and Html Helper Methods.
