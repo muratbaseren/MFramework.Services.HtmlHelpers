@@ -15,7 +15,9 @@ You can add CSS and JS files to project..
 
 ### What is coming with Content Folder
 **mframework.css** - base css library for mframework
+
 **circle-loader.css** - circle page loading indicator (full page)
+
 **thin.scrollbar.css** - change the visual appearance of the scroll bar. Provides a thinner appearance.
 
 ### What is coming with Scripts Folder
