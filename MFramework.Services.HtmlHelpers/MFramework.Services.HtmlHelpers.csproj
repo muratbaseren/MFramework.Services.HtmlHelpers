@@ -89,22 +89,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\circle-loader.css" />
+    <Content Include="Content\mframework-circle-loader.css" />
     <Content Include="Content\circle-loader.min.css">
-      <DependentUpon>circle-loader.css</DependentUpon>
+      <DependentUpon>mframework-circle-loader.css</DependentUpon>
     </Content>
-    <Content Include="Content\mframework.css" />
+    <Content Include="Content\mframework-common.css" />
     <Content Include="Content\mframework.min.css">
-      <DependentUpon>mframework.css</DependentUpon>
+      <DependentUpon>mframework-common.css</DependentUpon>
     </Content>
-    <Content Include="Content\thin-scrollbar.css" />
+    <Content Include="Content\mframework-thin-scrollbar.css" />
     <Content Include="Content\thin-scrollbar.min.css">
-      <DependentUpon>thin-scrollbar.css</DependentUpon>
+      <DependentUpon>mframework-thin-scrollbar.css</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
-    <Content Include="Scripts\jquery.unobtrusive-ajax-modified.js" />
+    <Content Include="Scripts\mframework-jquery-unobtrusive-ajax.js" />
     <Content Include="Scripts\jquery.unobtrusive-ajax-modified.min.js">
-      <DependentUpon>jquery.unobtrusive-ajax-modified.js</DependentUpon>
+      <DependentUpon>mframework-jquery-unobtrusive-ajax.js</DependentUpon>
+    </Content>
+    <Content Include="Scripts\mframework-jquery.js" />
+    <Content Include="Scripts\mframework-jquery.min.js">
+      <DependentUpon>mframework-jquery.js</DependentUpon>
     </Content>
     <Content Include="Web.config" />
   </ItemGroup>
@@ -118,8 +122,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
-    <Content Include="App_Code\BSHelper.cshtml" />
-    <Content Include="App_Code\JQHelper.cshtml" />
+    <Content Include="App_Code\MFHtml.cshtml" />
+    <Content Include="App_Code\MFJQueryScript.cshtml" />
     <None Include="bundleconfig.json" />
     <Content Include="MFramework-Services-HtmlHelpers.nuspec" />
     <None Include="packages.config" />

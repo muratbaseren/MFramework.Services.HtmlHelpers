@@ -22,5 +22,11 @@
     "inputFiles": [
       "Scripts/jquery.unobtrusive-ajax-modified.js"
     ]
+  },
+  {
+    "outputFileName": "Scripts/mframework-jquery.min.js",
+    "inputFiles": [
+      "Scripts/mframework-jquery.js"
+    ]
   }
 ]

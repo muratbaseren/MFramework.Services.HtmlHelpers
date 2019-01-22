@@ -20,3 +20,15 @@
         </div>
     </div>
 }
+
+@helper UseCheckRemoveIcon(bool value)
+{
+    if (value)
+    {
+        <i class="fa fa-check text-success"></i>
+    }
+    else
+    {
+        <i class="fa fa-remove text-danger"></i>
+    }
+}
